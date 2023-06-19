@@ -3,7 +3,6 @@ require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const User = require("./models/User");
-const config = require("./config.json")
 let vCardsJS = require('vcards-js');
 const Event = require("./models/Event");
 
